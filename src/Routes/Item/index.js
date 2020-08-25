@@ -33,7 +33,7 @@ const Hotels = () => {
     return Hotel && <div className={CSS.Item}>
         <Row>
             <Col xs={8} className={CSS.imgHolder}>
-                <Image title={Hotel.name} src={Hotel.img ? require(process.env.PUBLIC_URL + `/booking-react/public/imgs/hotels/${Hotel.img}`) : "holder.js/100px180"} />
+                <Image title={Hotel.name} src={Hotel.img ? require(process.env.PUBLIC_URL + `/public/imgs/hotels/${Hotel.img}`) : "holder.js/100px180"} />
             </Col>
 
         </Row>
